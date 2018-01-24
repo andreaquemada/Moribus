@@ -1,0 +1,156 @@
+.heading1
+{
+    font-family: 'Open Sans',sans-serif;
+    color: #262626;
+    font-size: 400%;
+    margin-left: 30px;
+}
+
+
+.heading
+{
+	font-family: 'Open Sans',sans-serif;
+	color: #61c3d9;
+    
+}
+
+.text
+{
+	font-size: :24px;
+	font-family: 'Open Sans',sans-serif;
+    color: gray;
+	display: none;
+	opacity:0;
+	transition:opacity 1s linear;*
+	position: absolute;
+	opacity: 0;
+	/*visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0.5s;
+	transition: opacity 0.5s, visibility 0.5s;*/
+}
+
+.title:hover ~.text{
+    display: block;
+    visibility: visible;
+    opacity:1;
+}
+
+
+h3#titulo1:hover ~ div#texto1 {
+	/*display: block;*/
+    visibility: visible;
+  	opacity:1;
+
+  	/*transition-delay: 1s;
+  	transition:opacity 1s linear;**/
+  	
+}
+div#group1:hover +div#group2, div#group1:hover ~div#group3, div#group1:hover ~div#group4, div#group1:hover ~div#group5, div#group1:hover ~div#group6, div#group1:hover ~div#group7, div#group1:hover ~div#group8, div#group1:hover ~div#group9, div#group1:hover ~div#group10, div#group1:hover ~div#group11,div#group1:hover ~img#img1,div#group1:hover ~img#img2{
+    /*display: block;*/
+    position: element(#group1);
+    transform: translateY(250%);
+
+    
+    /*transition-delay: 1s;
+    transition:opacity 1s linear;**/
+    
+}
+
+h3#titulo2:hover ~ div#texto2 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group2:hover +div#group3 , div#group2:hover ~div#group4, div#group2:hover ~div#group5 , div#group2:hover ~div#group6, div#group2:hover ~div#group7, div#group2:hover ~div#group8, div#group2:hover ~div#group9, div#group2:hover ~div#group10, div#group2:hover ~div#group11,div#group2:hover ~img#img1,div#group2:hover ~img#img2{
+    position: element(#group2);
+    transform: translateY(400%);
+}
+
+h3#titulo3:hover ~ div#texto3 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group3:hover +div#group4, div#group3:hover ~div#group5 , div#group3:hover ~div#group6, div#group3:hover ~div#group7, div#group3:hover ~div#group8, div#group3:hover ~div#group9, div#group3:hover ~div#group10, div#group3:hover ~div#group11,div#group3:hover ~img#img1,div#group3:hover ~img#img2{
+    position: element(#group3);
+    transform: translateY(350%);
+}
+
+h3#titulo4:hover ~ div#texto4 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group4:hover +div#group5, div#group4:hover ~div#group6, div#group4:hover ~div#group7, div#group4:hover ~div#group8, div#group4:hover ~div#group9, div#group4:hover ~div#group10, div#group4:hover ~div#group11,div#group4:hover ~img#img1,div#group4:hover ~img#img2{
+    position: element(#group4);
+    transform: translateY(350%);
+}
+
+h3#titulo5:hover ~ div#texto5 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group5:hover +div#group6, div#group5:hover ~div#group7, div#group5:hover ~div#group8, div#group5:hover ~div#group9, div#group5:hover ~div#group10, div#group5:hover ~div#group11,div#group5:hover ~img#img1,div#group5:hover ~img#img2{
+    position: element(#group5);
+    transform: translateY(450%);
+}
+
+h3#titulo6:hover ~ div#texto6 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group6:hover ~div#group7, div#group6:hover ~div#group8, div#group6:hover ~div#group9, div#group6:hover ~div#group10, div#group6:hover ~div#group11,div#group6:hover ~img#img1,div#group6:hover ~img#img2{
+    position: element(#group6);
+    transform: translateY(150%);
+}
+
+h3#titulo7:hover ~ div#texto7 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group7:hover ~div#group8, div#group7:hover ~div#group9, div#group7:hover ~div#group10, div#group7:hover ~div#group11,div#group7:hover ~img#img1,div#group7:hover ~img#img2{
+    position: element(#group7);
+    transform: translateY(1150%);
+}
+
+h3#titulo8:hover ~ div#texto8 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group8:hover ~div#group9, div#group8:hover ~div#group10, div#group8:hover ~div#group11,div#group8:hover ~img#img1,div#group8:hover ~img#img2{
+    position: element(#group8);
+    transform: translateY(400%);
+}
+
+h3#titulo9:hover ~ div#texto9 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group9:hover ~div#group10, div#group9:hover ~div#group11,div#group9:hover ~img#img1,div#group9:hover ~img#img2{
+    position: element(#group9);
+    transform: translateY(200%);
+}
+
+h3#titulo10:hover ~ div#texto10 {
+    visibility: visible;
+    opacity:1;
+}
+div#group10:hover ~div#group11,div#group10:hover ~img#img1,div#group10:hover ~img#img2{
+    position: element(#group10);
+    transform: translateY(150%);
+}
+
+h3#titulo11:hover ~ div#texto11 {
+    visibility: visible;
+    opacity:1;
+}
+
+div#group11:hover ~img#img1,div#group11:hover ~img#img2{
+    position: element(#group11);
+    transform: translateY(150%);
+}

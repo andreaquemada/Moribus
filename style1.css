@@ -1,0 +1,41 @@
+.heading1
+{
+    font-family: 'Open Sans',sans-serif;
+    color: #262626;
+    font-size: 300%;
+    margin-left: 30px;
+}
+
+
+.heading
+{
+	font-family: 'Open Sans',sans-serif;
+	color: #61c3d9;
+	
+    
+}
+
+.text
+{
+	font-size: :24px;
+	font-family: 'Open Sans',sans-serif;
+    color: gray;
+	/*display: none;*/
+	position: absolute;
+	visibility: hidden;
+	opacity:0;
+	transition: opacity 0.5s;
+	/*-webkit-transition: opacity 3s;*/
+}
+
+.heading:hover ~.text{
+    /*display: block;*/
+    position: static;
+    visibility: visible;
+    opacity:1;
+}
+
+
+.body{
+	margin-right: 20px;
+}

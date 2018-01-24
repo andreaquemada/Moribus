@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<title>Moribus Page</title>
+ 		<script type="text/javascript" src="d3/d3.v3.js"></script>
+ 		<link rel="stylesheet" href="style2.css">
+ 		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+		<meta name="viewport" content="width=device-width">
+		<style>
+		img {
+		    max-width: 50%;
+		}
+		</style>
+ 	</head>
+ 	<body class="body">
+ 		<script type="text/javascript">
+ 		// Your beautiful D3 code will go here
+ 		
+
+ 		</script>
+
+ 		<img src="cachet.png" align="right">
+ 		<h1 class="heading1" align="left">Moribus Studiet</h1>
+ 		<ul>
+ 		<div id="group1">
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<label id="titulo1" class="heading" for="1">
+	 			HVAD GÅR MORIBUS STUDIET UD PÅ?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="1" type="checkbox">
+	 		<div id="texto1" class="text" >
+
+		 		<p>
+			 		MORIBUS	app’en	understøtter den terapiform	som	kaldes	”adfærdsaktivering”	(Engelsk	”Behavioral	Activation”). MORIBUS studiet har 2 formål:
+					<ol>
+						<li>
+						At	undersøge om	et	4	ugers	forløb	med	adfærdsaktivering hjælper	på	dine	depressive symptomer	og	dermed	om	du	får	det	bedre	i	forløbet.
+						</li>
+						<li>
+						At	indsamle detaljerede data om din adfærd. Dette er både ”subjektiv” data	som	du	selv indtaster (f.eks. hvad	du	har	lavet i	løbet af dagen)	og dels ”objektiv” data som	indsamles automatisk af	telefonen.
+						</li>
+					</ol>
+		 		</p>
+		 		<hr align="left" noshade="noshade" size="2" width="101%" />
+	 		</div>
+
+	 		</div>
+
+	 		<div id="group2">
+
+	 		<label id="titulo2" class="heading" for="2">
+	 			HVAD SKAL JEG GØRE?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="2" type="checkbox">
+	 		<div id="texto2" class="text">
+		 		<p>
+			 		Adfærdsaktivering	rummer	3	ting:
+					<ol>
+						<li>
+						Du	skal	planlægge	hvad	du	vil	lave	time-for-time	i	løbet	af	ugen.	Denne	planlægning	kan	du f.eks.	lave	søndag	aften	ved	hjælp	af	kalenderen	i	MORIBUS	app’en. Du kan	sagtens	planlægge aktiviteter	som	tager	flere	timer.
+						</li>
+						<li>
+						Du	skal	så	følge	din	plan	i	løbet	af	ugen	og	gøre	hvad	du	har planlagt.	Når	du	har	lavet	en	aktivitet	(f.eks.	gået	en	tur	skoven)	skal	du	registrere	hvilken	”lyst”	og	”mestring”	du	havde.
+						</li>
+						<li>
+						Hvis	du	ikke	har	planlagt	noget	en	time,	så	vil	telefonen	spørge	dig	hvad	du	har	lavet	og	det	kan du	så	skrive	ind	i	app’en.
+						</li>
+					</ol>
+		 		</p>
+		 		<p>
+		 			Det	er	vigtigt, at	du	får	registreret	så	mange	aktiviteter	som	muligt	i	løbet	af	en	dag. Husk	at	du	kan	sagtens	registrere	en	aktivitet	som	har	taget flere	timer.	For	eksempel hvis	du	har	set	TV	en	hel	aften fra	kl.	19	til	23.
+		 		</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+
+	 		<div id="group3">
+
+	 		<label id="titulo3" class="heading" for="3">
+	 			HVORDAN HJÆLPER MORIBUS MIG?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="3" type="checkbox">
+	 		<div id="texto3" class="text">
+		 		<p>
+			 		Der er en lang række videnskabelige studier som har vist, at personer med let til middelsvær depression får det bedre ved at benytte adfærdsaktivering. Princippet er at man forsøger at planlægge aktiviteter i ugen som vil være gode for en – f.eks. at få lidt motion eller se en god ven – og så sørge for at man gør det, når det nu er planlagt, dvs. at man ikke udskyder eller aflyser det. Hvis du er interesseret i at læse mere om adfærdsaktivering som terapiform, så kan vi anbefale at læse følgende litteratur:
+					<ul>
+						<li>
+						CR Martels & ME Addis. Overvind depression et skridt ad gangen. Dansk Psykologisk Forlag, 2008
+						</li>
+						<li>
+						CR Martell, S Simidjian & R Herman-Dunn. Adfærdsaktivering ved Depression – En klinisk guide. Dansk Psykologisk Forlag. 2012.
+						</li>
+						<li>
+						<a href="https://en.wikipedia.org/wiki/Behavioral_activation">Behavioral Activation</a>
+						</li>
+					</ul>
+						
+		 		</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+
+	 		<div id="group4">
+
+	 		<label id="titulo4" class="heading" for="4">
+	 			HVAD ER DET FORSKNINGSMÆSSIGE FORMÅL?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="4" type="checkbox">
+	 		<div id="texto4" class="text">
+		 		<p>
+			 		MORIBUS	studiet	har	2	formål:
+					<ol>
+						<li>
+						At undersøge brugervenligheden af MORIBUS app’en. Dvs. om du synes app’en er nem at lære at kende, nem at bruge i det daglige, og om du føler, at app’en er til nytte i håndtering af din depression.
+						</li>
+						<li>
+						At analysere sammenhængen mellem daglige aktiviteter og objektive data. F.eks. er der en sammenhæng mellem sociale aktiviteter såsom at mødes med en ven og så graden af mestring og/eller lyst.
+						</li>
+					</ol>
+		 		</p>
+		 		<p>
+		 			Analyse af både brugervenlighed (1) og aktiviteter (2) vil blive behandlet statistisk og udgives i form af videnskabelige artikler, som evt. vil blive præsenteret på videnskabelige kongresser. Resultaterne vil evt. også blive omtalt i fagblade og andre medier.
+		 		</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+
+	 		<div id="group5">
+
+	 		<label id="titulo5" class="heading" for="5">
+	 			HVEM ER ANSVARLIG?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="5" type="checkbox">
+	 		<div id="texto5" class="text">
+		 		<p>
+			 		MORIBUS app’en er udviklet af:
+			 		<ul>
+						<li>
+						Darius Rohani, ph.d. studerende ved Danmark Tekniske Universitet
+						</li>
+					</ul>
+				</p>
+				<p>
+					De videnskabelig ansvarlige er:
+					<ul>
+						<li>
+						Jakob E. Bardram, professor i datalogi på Danmarks Tekniske Universitet
+						</li>
+						<li>
+						Lars V. Kessing, professor i psykiatri ved Psykiatrisk Center København, Rigshospitalet
+						</li>
+						<li>
+						Maria Faurholt-Jepsen, læge i psykiatri ved Psykiatrisk Center København, Rigshospitalet
+						</li>
+					</ul>
+		 		</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+
+	 		<div id="group6">
+
+	 		<label id="titulo6" class="heading" for="6">
+	 			HVEM KAN DELTAGE?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="6" type="checkbox">
+	 		<div id="texto6" class="text">
+		 		<p>
+			 		Alle personer som er blevet diagnosticeret med enten bipolar eller unipolar depression. Forsøget foregår på dansk.
+				</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+	 		<div id="group7">
+
+	 		<label id="titulo7" class="heading" for="7">
+	 			HVILKEN DATA INDSAMLER VI?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="7" type="checkbox">
+	 		<div id="texto7" class="text">
+		 		<p>
+			 		I MORIBUS studiet indsamler vi 3 typer af data:
+			 		<ul>
+						<li>
+						<b>Subjektiv data,</b> dvs. data som du selv taster ind. Dette omfatter:
+						<ul>
+							<li>
+							Time-for-time registrering af aktiviteter
+							</li>
+							<li>
+							Lyst og mestring score for hver aktivitet
+							</li>
+							<li>
+							Daglig angivelse af stemningsleje
+							</li>
+						</ul>
+						</li>
+						<li>
+						<b>Objektiv data,</b> dvs. data som automatisk indsamles af telefonen. Dette omfatter:
+						<ul>
+							<li>
+							Acceleration, dvs. hver gang telefonen bevæger sig
+							</li>
+							<li>
+							Batteri niveau
+							</li>
+							<li>
+							Bluetooth enheder i nærheden
+							</li>
+							<li>
+							Opkobling til telefonmaster
+							</li>
+							<li>
+							GPS lokalisation
+							</li>
+							<li>
+							Lys niveauet omkring telefonen (lys/mørke)
+							</li>
+							<li>
+							Telefon opkald, dvs. antal og tidspunkt for indkommende og udgående opkald
+							</li>
+							<li>
+							SMS beskeder, dvs. antal og tidspunkt for indkommende og udgående beskeder
+							</li>
+							<li>
+							Om skærmen er tændt/slukket
+							</li>
+							<li>
+							Lyd niveau omkring telefonen
+							</li>
+							<li>
+							Trådløs internet ID (SSID)
+							</li>
+						</ul>
+						</li>
+						<li>
+						<b>Spørgeskema data</b> når du besvarer følgende spørgeskema:
+						<ul>
+							<li>
+							Generelle spørgsmål om din alder, køn, uddannelse, etc.
+							</li>
+							<li>
+							Spørgsmål vedrørende brugervenligheden af MORIBUS.
+							</li>
+							<li>
+							Beck’s Depression Inventory (BDI) – dette er et standard spørgeskema indenfor psykiatrien til at vurdere graden af depression.
+							</li>
+							<li>
+							World Health Organization trivselsindeks (WHO-5) som måler graden af positive oplevelser og generelle trivsel eller velbefindende.
+							</li>
+						</ul>
+						</li>
+					</ul>
+				</p>
+				<p>
+					Bemærk at vi ikke indsamler nogen data om indhold af telefonopkald eller SMS beskeder; vi indsamler kun statistik omkring antal og tidspunkt.
+				</p>
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+
+	 		<div id="group8">
+
+	 		<label id="titulo8" class="heading" for="8">
+	 			HVORDAN HÅNDTERES FORTROLIGHED?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="8" type="checkbox">
+	 		<div id="texto8" class="text">
+		 		<p>
+		 		<em>MORIBUS studiet gennemføres med 100% anonymitet.</em>
+				</p>
+				<p>
+				<p>
+		 		Dette betyder at vi ikke under nogen omstændigheder indsamler data som kan identificere dig. Vi beder derfor ikke om dit cpr. nr., dit navn, din adresse, din email, dit telefonnummer, eller andre informationer som kan identificere dig.
+				</p>
+		 		Alle objektive data, som vi indsamler vil blive anonymiseret. Dette gælder f.eks. telefonnumre for indgående opkald og SMS beskeder som vil blive ændret til et tilfældigt tal (teknisk set en såkaldt ”hashing” funktion). GPS koordinater vil blive ændret så vi ikke kan se dine nøjagtige bevægelser i forhold til et kort (teknisk set forskudt i tid og rum).
+				</p>
+				</p>
+		 		Den eneste nøgle som binder alle data sammen er det 4-cifrede Patient Identifikationsnummer (PIN) som står i MORIBUS app’en. Dette PIN nummer skal du bruge når du udfylder spørgeskemaerne.
+				</p>
+
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+	 		<div id="group9">
+
+	 		<label id="titulo9" class="heading" for="9">
+	 			HVORDAN HÅNDTERES SIKKERHED?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="9" type="checkbox">
+	 		<div id="texto9" class="text">
+		 		<p>
+		 		Alle data som vi indsamler på telefonen sendes og opbevares krypteret så uvedkommende ikke kan få adgang til dem.
+				</p>
+				<p>
+				Data opbevares på en server i Irland, som er underlagt EU's persondatadirektiv.
+				</p>
+		 		
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+	 		<div id="group10">
+
+	 		<label id="titulo10" class="heading" for="10">
+	 			INFORMERET SAMTYKKE
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="10" type="checkbox">
+	 		<div id="texto10" class="text">
+		 		<p>
+		 		Før du går i gang med MORIBUS studiet skal du sammen med en forsker gennemgår denne patientvejledning og underskrive et informeret samtykke.
+				</p>
+				
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+
+	 		<div id="group11">
+
+	 		<label id="titulo11" class="heading" for="11">
+	 			HVEM SKAL JEG KONTAKTE HVIS JEG HAR SPØRGSMÅL?
+	 		</label>
+	 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		<input id="11" type="checkbox">
+	 		<div id="texto11" class="text">
+		 		<p>
+		 		Du kan kontakte Darius Rohani på email <em>daroh@dtu.dk</em> eller mobil <em>61 45 23 93</em>.
+				</p>
+				
+		 		<hr align="left" noshade="noshade" size="2" width="100%" />
+	 		</div>
+	 		</div>
+			 
+
+			 
+			<img id="img1" src="hosp.png" align="left" height="80" width="190">
+ 			<img id="img2" src="dtu.png" align="right" height="90" width="200">
+			 
+ 		</ul>
+</html>
